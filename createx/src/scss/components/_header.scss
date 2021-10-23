@@ -1,4 +1,14 @@
-//
-body {
-  background-color: #ff0;
+.header {
+  padding: 23px 0;
+  &__container {
+    @include flex-all-sb;
+  }
+
+  &--main {
+    background-color: var(--color-light);
+  }
+
+  &__nav {
+    margin-left: -112px;
+  }
 }

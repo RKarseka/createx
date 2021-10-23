@@ -1,0 +1,15 @@
+{
+  "html": {
+    "snippets": {
+      "abbr1": "ul>li*3",
+      "abbr2": "ol>li*3",
+      "nav_": "nav.nav>ul.nav__list>li.nav__item*4>a.nav__link[href='#']{Link$}"
+    }
+  },
+  "css": {
+    "snippets": {
+      "clw": "color: white",
+      "clb": "color: black"
+    }
+  }
+}

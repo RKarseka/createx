@@ -10,7 +10,8 @@ html {
 
 body {
   margin: 0;
-  font-family: "asd", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
 }
 
 img {
@@ -45,7 +46,7 @@ a {
 .container {
   margin: 0 auto;
   padding: 0 15px;
-  max-width: 1200px;
+  max-width: 1260px;
 }
 
 .js-focus-visible :focus:not(.focus-visible) {
