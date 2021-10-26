@@ -52,3 +52,14 @@ a {
 .js-focus-visible :focus:not(.focus-visible) {
   outline: none;
 }
+
+// ====project styles====
+
+.main-title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 300%;
+  letter-spacing: 1px;
+  color: var(--color-storm);
+}
