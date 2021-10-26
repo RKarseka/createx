@@ -8,8 +8,10 @@
   },
   "css": {
     "snippets": {
+      "b_":"&::before{content:''};",
       "clw": "color: white",
-      "clb": "color: black"
+      "clb": "color: black",
+      "posa_":"position: absolute;left: 0;right: 0;top: 0;bottom: 0;"
     }
   }
 }
