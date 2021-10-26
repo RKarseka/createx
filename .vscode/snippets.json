@@ -1,0 +1,17 @@
+{
+  "html": {
+    "snippets": {
+      "abbr1": "ul>li*3",
+      "abbr2": "ol>li*3",
+      "nav_": "nav.nav>ul.nav__list>li.nav__item*4>a.nav__link[href='#']{Link$}"
+    }
+  },
+  "css": {
+    "snippets": {
+      "b_":"&::before{content:''};",
+      "clw": "color: white",
+      "clb": "color: black",
+      "posa_":"position: absolute;left: 0;right: 0;top: 0;bottom: 0;"
+    }
+  }
+}
