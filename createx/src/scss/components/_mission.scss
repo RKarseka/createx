@@ -1,0 +1,17 @@
+.mission {
+  background-color: var(--color-light);
+
+  &__list {
+    display: grid;
+    grid-template-columns: repeat (3, 1fr);
+    gap: 188px;
+  }
+
+  &__item {
+    text-align: center;
+
+    &:nth-child(2) {
+      @include flex-column-center;
+    }
+  }
+}
