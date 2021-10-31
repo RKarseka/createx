@@ -1,0 +1,21 @@
+// базовые подключения
+@import "vars";
+@import "mixins";
+@import "fonts";
+@import "settings";
+
+// подключения компонентов страницы
+@import "./components/header";
+@import "./components/hero";
+@import "./components/about-section";
+@import "./components/mission";
+@import "./components/services-section";
+@import "./components/portfolio-section";
+
+//маленькие компоненты
+
+@import "./components/header-contacts";
+@import "./components/nav";
+@import "./components/video-block";
+@import "./components/form-field";
+@import "./components/slider-nav";
