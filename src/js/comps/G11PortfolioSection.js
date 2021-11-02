@@ -1,6 +1,22 @@
 import React from "react";
+import { Navigation } from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
 
 const G11portfoliosection = () => {
+  // const portSlider = document.querySelector(".portfolio-section__items");
+  const prew = document.querySelector(".portfolio-section__prev");
+
+  const params = {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    modules: [Navigation],
+    loop: true,
+    navigation: {
+      nextEl: ".portfolio-section__next",
+      prevEl: prew,
+    },
+  };
+
   return (
     <section className="portfolio-section">
       <div className="container">
@@ -39,13 +55,12 @@ const G11portfoliosection = () => {
             </button>
           </div>
         </div>
-        <div className="swiper portfolio-section__items">
-          <div className="swiper-wrapper">
-            <div className="swiper-slide"></div>
-            <div className="swiper-slide"></div>
-            <div className="swiper-slide"></div>
-          </div>
-        </div>
+        <Swiper {...params}>
+          <SwiperSlide className="ssw">Slide 1</SwiperSlide>
+          <SwiperSlide>Slide 2</SwiperSlide>
+          <SwiperSlide>Slide 3</SwiperSlide>
+          <SwiperSlide>Slide 4</SwiperSlide>
+        </Swiper>
       </div>
     </section>
   );

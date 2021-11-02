@@ -1,12 +1,12 @@
 import "./App.scss";
 import "./scss/main.scss";
 
-import Header from "./comps/Header";
-import Hero from "./comps/Hero";
-import AboutSection from "./comps/AboutSection";
-import Mission from "./comps/Mission";
-import Servicessection from "./comps/ServicesSection";
-import G11portfoliosection from "./comps/G11PortfolioSection";
+import Header from "./js/comps/Header";
+import Hero from "./js/comps/Hero";
+import AboutSection from "./js/comps/AboutSection";
+import Mission from "./js/comps/Mission";
+import Servicessection from "./js/comps/ServicesSection";
+import G11portfoliosection from "./js/comps/G11PortfolioSection";
 
 function App() {
   return (
